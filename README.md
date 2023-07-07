@@ -1,1 +1,4 @@
 # Linkpass
+
+![Screenshot](grafik.png)
+
