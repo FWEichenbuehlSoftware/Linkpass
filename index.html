@@ -21,8 +21,6 @@
         }
     </script>
 
-
-
     <style media="screen">
         *,
         *:before,
@@ -55,7 +53,7 @@
         }
 
         form {
-            height: 360px;
+            height: auto;
             width: 400px;
             background-color: rgba(255,255,255,0);
             position: absolute;
@@ -67,6 +65,7 @@
             border: 2px solid rgba(255,255,255,0.1);
             box-shadow: 0 0 40px rgba(8,7,16,0.6);
             padding: 50px 35px;
+            text-align: center;
         }
 
             form * {
@@ -81,7 +80,6 @@
                 font-size: 32px;
                 font-weight: 500;
                 line-height: 42px;
-                text-align: center;
             }
 
         label {
@@ -119,19 +117,26 @@
             cursor: pointer;
         }
 
+        .JFLogo{
+            height:120px;
+            border-radius: 25px;
+            padding: 10px 10px 10px 10px ;
+        }
+
 
         
     </style>
 </head>
 <body>
     <div class="background">
-
     </div>
     <form>
+        <img class="JFLogo" src="Logo.jpg" alt="JF Logo"/>
         <h3>JF Eichenbühl</h3>
         <label for="password">Passwort</label>
         <input type="password" placeholder="Passwort" id="password" name="password">
         <button onclick="redirect()()">Anmelden</button>
+        <p>© Daniel Reim 2023</p>
     </form>
 </body>
 </html>
